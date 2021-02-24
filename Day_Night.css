@@ -1,0 +1,18 @@
+body.day{
+    color: black;
+    background-color: white;
+}
+
+body.night{
+    color: white;
+    background-color: black;
+}
+
+#word.day{
+    color: red;
+}
+
+#word.night{
+    color: blue;
+}
+

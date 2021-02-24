@@ -1,0 +1,23 @@
+.completed {
+    color: rgb(119, 119, 119);
+    text-decoration: line-through;
+}
+
+div {
+    border: 5px dashed black;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px 0px 10px 10px;
+    background-color: lightskyblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgba(203,128,232,1) 0%, rgba(102,102,241,1) 50%, rgba(0,212,255,1) 100%);
+}
