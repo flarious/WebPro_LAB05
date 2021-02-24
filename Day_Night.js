@@ -13,9 +13,6 @@ function changeMode()
 
         for(const temp of spans)
         {
-            temp.classList.remove("day");
-            temp.classList.add("night");
-
             if(temp.id === "time")
             {
                 temp.innerHTML = "NIGHT";
@@ -23,6 +20,11 @@ function changeMode()
             else if(temp.id === "mode")
             {
                 temp.innerHTML = "night";
+            }
+            else if(temp.id === "word")
+            {
+                temp.classList.remove("day");
+                temp.classList.add("night");
             }
             else if(temp.classList.contains("text"))
             {
@@ -37,9 +39,6 @@ function changeMode()
 
         for(const temp of spans)
         {
-            temp.classList.remove("night");
-            temp.classList.add("day");
-
             if(temp.id === "time")
             {
                 temp.innerHTML = "MORNING";
@@ -47,6 +46,11 @@ function changeMode()
             else if(temp.id === "mode")
             {
                 temp.innerHTML = "day";
+            }
+            else if(temp.id === "word")
+            {
+                temp.classList.remove("night");
+                temp.classList.add("day");
             }
             else if(temp.classList.contains("text"))
             {
